@@ -49,12 +49,14 @@ class User extends Authenticatable
 
     public function profile()
     {
-        return $this->hasOne( 'App\Profile');
-            }
-
+        return $this->hasOne('App\Profile');
+    }
     public function questions()
     {
         return $this->hasMany('App\Question');
     }
-
+    public function answers()
+    {
+        return $this->hasMany('App\Answer');
+    }
 }
