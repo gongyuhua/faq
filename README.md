@@ -10,8 +10,7 @@ To run the FAQ project:
 
 4.setup database / with sqlite (https://laravel.com/docs/5.6/database)
 
-Epic:
-Recent added Users
+Epic:Recent added Users
 
 User Story
 
